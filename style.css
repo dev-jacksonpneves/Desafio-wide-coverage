@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.link-header {
+    width: 79px;
+    height: 21px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #17233D;
+    margin-left: 30px;
+    cursor: pointer;
+    top: 25px;
+
+}
+.link-header:active {
+    color: aqua;
+}
+
+.button-sign-up {
+    width: 67px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #fff;
+    width: 124px;
+    height: 51px;
+    border: none;
+    border-radius: 20px;
+    background: #6FBF44;
+    box-shadow: 1px 5px 5px #4f8644;
+    margin-left: 25px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.button-sign-up:active {
+    background: greenyellow;
+}
+
+.logo-image {
+    width: 595.18px;
+    height: 500px;
+    top: 246px;
+    left: 121px;
+    padding: 15px;
+    margin-left: 50px;
+    display: inline-block;
+    margin-top: 110px;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    color: #161A49;
+    margin: 15px 15px 30px 10px;
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    size: 24px;
+    line-height: 29.26px;
+    margin: 10px 10px 30px 10px;
+
+}
+
+.button-learn {
+    width: 112px;
+    height: 27px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #6FBF44;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    display: inline-block;
+}
+
+
+@media screen and ( max-width: 900px) {
+
+
+
+    .link-header {
+        display: none;
+    }
+
+    .logo-image {
+        width: 312px;
+        height: 288px;
+        margin: 0 auto;
+        display: block;
+        max-width: 90%;
+        position: static;
+        
+    }
+
+    h1 {
+        width: auto;
+        height: auto;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.5961538553237915px;
+        text-align: center;
+    }
+
+p {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.button-learn {
+    width: 132px;
+    height: 67px;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    text-align: center;
+    display: block;
+    
+    
+
+}
+
+
+.button-sign-up {
+        width: 71px;
+        height: 28px;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-align: center;
+        top: 10px;
+        
+}
+}
+
